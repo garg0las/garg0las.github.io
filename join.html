@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Join | IEEE CSUN</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <script type="text/javascript" src="js" defer></script>
 </head>
 
-<body>
+<body id="cuerpo">
   <!-- Top Nav (same as homepage) -->
   <header class="nav">
     <div class="container nav-inner">
-      <a class="logo" href="index.html" aria-label="IEEE CSUN Home">
-        <span class="logo-mark" aria-hidden="true"></span>
-        <span class="logo-text">IEEE CSUN</span>
-      </a>
+      <a class="logo logo-only" href="index.html">
+  <img src="assets/img/brand/ieee-csun-logo.png" alt="IEEE CSUN">
+</a>
+<button class="nav-theme" id="classChangeButton" data-theme-toggle="" aria-pressed="false" type="button">
+        Dark mode
+      </button>
+
+      
 
       <nav class="nav-links">
         <a href="about.html">About</a>
@@ -40,16 +45,16 @@
 
         <div class="join-actions">
           <!-- Replace these links when ready -->
-          <a class="btn primary" href="#" target="_blank" rel="noreferrer">
+          <a class="btn primary" href="https://discord.gg/gQtEgCQ8" target="_blank" rel="noreferrer">
             Join Discord <span class="arrow">→</span>
           </a>
           <a class="btn secondary" href="calendar.html">See events</a>
         </div>
 
         <div class="join-mini">
-          <div class="mini-chip">📍 Jacaranda 2201</div>
-          <div class="mini-chip">✉️ ie.ee@csun.edu</div>
-          <div class="mini-chip">🎓 All majors welcome</div>
+          <div class="mini-chip"> Jacaranda 2201</div>
+          <div class="mini-chip"> ie.ee@csun.edu</div>
+          <div class="mini-chip"> All majors welcome</div>
         </div>
       </div>
     </section>
@@ -67,7 +72,7 @@
             <div class="step-num">1</div>
             <h3>Join our Discord</h3>
             <p>Get announcements, event reminders, and roles for workshops/projects.</p>
-            <a class="step-link" href="#" target="_blank" rel="noreferrer">Add invite link →</a>
+            <a class="step-link" href="https://discord.gg/gQtEgCQ8" target="_blank" rel="noreferrer">Add invite link →</a>
           </div>
 
           <div class="step-card">
@@ -238,12 +243,16 @@
             and a team.
           </p>
           <div class="cta-actions">
-            <a class="btn primary" href="#" target="_blank" rel="noreferrer">Join Discord <span class="arrow">→</span></a>
+            <a class="btn primary" href="https://discord.gg/gQtEgCQ8" target="_blank" rel="noreferrer">Join Discord <span class="arrow">→</span></a>
             <a class="btn secondary" href="calendar.html">View calendar</a>
           </div>
         </div>
       </div>
     </section>
   </main>
+
+  <button class="to-top" aria-label="Back to top">↑</button>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
+
